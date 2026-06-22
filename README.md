@@ -10,6 +10,12 @@ This project was created as a teaching/demo tool to show how a path traversal
 vulnerability can be introduced into a PHP web application, how it can be exploited,
 and how access control interacts with insecure file handling.
 
+## Info
+
+This repository contains two versions of the same PHP web application:
+- /vulnerable — intentionally insecure version demonstrating path traversal
+- /mitigation — patched version using canonical path checks and directory whitelisting
+
 ## Project Structure
 
 - login.php — Log in to the application.  
